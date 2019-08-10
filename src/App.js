@@ -9,6 +9,12 @@ class App extends Component {
   render() {
     return (
       <div>
+        <div className="top-content">
+          <div className="top-logo"><FaCodepen /></div>
+          <div className="top-title"><a>Download</a></div>
+          <div className="top-title"><a>Purchase</a></div>
+          <div className="top-title"><a>Support</a></div>
+        </div>
         <div className="box-title">
           <div className="boxed">
             <h1><FaCodepen className="box-logo" /> Boxed</h1>
